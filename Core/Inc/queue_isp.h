@@ -32,7 +32,7 @@
 #define POP_Q_SUCCESS		    0x00			/// 取出堆栈空间成功
 #define POP_Q_FAIL			    0x01			/// 取出堆栈空间失败
 
-#define ISP_SEND_QMAX           10              /// 内部通信发送信息队列最大值
+#define ISP_SEND_QMAX           5              /// 内部通信发送信息队列最大值
 #define ISP_SEND_DATA_MAX       256             /// 内部通信发送数据长度最大值
 
 /// 内部通信发送信息节点
